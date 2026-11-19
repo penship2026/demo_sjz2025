@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>城市讲堂</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<div id="header"></div>
+
+<section id="city-lecture" class="section bg-gradient">
+  <div class="container mx-auto px-4">
+    <h2 class="text-4xl font-bold text-center mb-16 text-gradient">城市讲堂</h2>
+    
+    <!-- 城市讲堂总览 -->
+    <div class="mb-24">
+      <h3 class="text-3xl font-semibold text-center mb-10">城市讲堂总览</h3>
+      
+      <div class="bg-white rounded-2xl shadow-xl p-8">
+        <div class="h-96 bg-gray-200 rounded-lg mb-8 flex items-center justify-center">
+          <div class="text-center">
+            <i class="fas fa-map-marked-alt text-6xl text-gray-400 mb-4"></i>
+            <p class="text-xl text-gray-600">城市讲堂地图</p>
+            <p class="text-sm text-gray-500 mt-2">（需要设计地图，展示各城市讲堂分布）</p>
+          </div>
+        </div>
+        
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+          <div class="text-center p-4 bg-blue-50 rounded-lg">
+            <h4 class="font-semibold text-blue-700">北京</h4>
+            <p class="text-sm text-gray-600 mt-2">北京大学生命科学学院</p>
+          </div>
+          <div class="text-center p-4 bg-green-50 rounded-lg">
+            <h4 class="font-semibold text-green-700">上海</h4>
+            <p class="text-sm text-gray-600 mt-2">上海交通大学医学院</p>
+          </div>
+          <div class="text-center p-4 bg-purple-50 rounded-lg">
+            <h4 class="font-semibold text-purple-700">广州</h4>
+            <p class="text-sm text-gray-600 mt-2">中山大学医学院</p>
+          </div>
+          <div class="text-center p-4 bg-yellow-50 rounded-lg">
+            <h4 class="font-semibold text-yellow-700">成都</h4>
+            <p class="text-sm text-gray-600 mt-2">四川大学华西医院</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- 各城市讲堂 -->
+    <div>
+      <h3 class="text-3xl font-semibold text-center mb-10">各城市讲堂</h3>
+      
+      <div class="bg-white rounded-2xl shadow-xl p-10">
+        <div class="text-center mb-8">
+          <h4 class="text-2xl font-semibold">视频讲堂</h4>
+          <p class="text-gray-600 mt-2">（前期预留位置，后期挂外网链接）</p>
+        </div>
+        
+        <div class="bg-gray-100 rounded-lg overflow-hidden max-w-4xl mx-auto">
+          <div class="aspect-w-16 aspect-h-9 bg-gray-200">
+            <div class="flex items-center justify-center h-full">
+              <div class="text-center">
+                <i class="fas fa-play-circle text-6xl text-blue-500 mb-4"></i>
+                <p class="text-gray-600">视频播放区域</p>
+                <p class="text-sm text-gray-500 mt-2">示例视频：干细胞基础与应用</p>
+              </div>
+            </div>
+          </div>
+          <div class="p-6 bg-white">
+            <div class="flex justify-between items-center">
+              <div>
+                <h5 class="text-xl font-semibold">北京讲堂：干细胞研究前沿</h5>
+                <p class="text-gray-600 mt-1">主讲人：北京大学 张教授</p>
+              </div>
+              <span class="bg-blue-100 text-blue-800 text-sm font-medium px-3 py-1 rounded-full">
+                2024-03-15
+              </span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div class="card bg-white rounded-lg shadow-md overflow-hidden border border-gray-100">
+            <div class="h-40 bg-gray-200 flex items-center justify-center">
+              <i class="fas fa-video text-3xl text-gray-400"></i>
+            </div>
+            <div class="p-4">
+              <h5 class="font-semibold">上海讲堂：干细胞与再生医学</h5>
+              <p class="text-sm text-gray-600 mt-1">上海交通大学 李教授</p>
+              <div class="flex justify-between items-center mt-3">
+                <span class="text-xs text-gray-500">2024-03-20</span>
+                <a href="#" class="text-blue-600 text-sm font-medium">观看 <i class="fas fa-arrow-right ml-1"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="card bg-white rounded-lg shadow-md overflow-hidden border border-gray-100">
+            <div class="h-40 bg-gray-200 flex items-center justify-center">
+              <i class="fas fa-video text-3xl text-gray-400"></i>
+            </div>
+            <div class="p-4">
+              <h5 class="font-semibold">广州讲堂：干细胞临床应用</h5>
+              <p class="text-sm text-gray-600 mt-1">中山大学 王教授</p>
+              <div class="flex justify-between items-center mt-3">
+                <span class="text-xs text-gray-500">2024-03-25</span>
+                <a href="#" class="text-blue-600 text-sm font-medium">观看 <i class="fas fa-arrow-right ml-1"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="card bg-white rounded-lg shadow-md overflow-hidden border border-gray-100">
+            <div class="h-40 bg-gray-200 flex items-center justify-center">
+              <i class="fas fa-video text-3xl text-gray-400"></i>
+            </div>
+            <div class="p-4">
+              <h5 class="font-semibold">成都讲堂：干细胞技术创新</h5>
+              <p class="text-sm text-gray-600 mt-1">四川大学 刘教授</p>
+              <div class="flex justify-between items-center mt-3">
+                <span class="text-xs text-gray-500">2024-03-30</span>
+                <a href="#" class="text-blue-600 text-sm font-medium">观看 <i class="fas fa-arrow-right ml-1"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div id="footer"></div>
+<script src="../js/main.js"></script>
+</body>
+</html>
